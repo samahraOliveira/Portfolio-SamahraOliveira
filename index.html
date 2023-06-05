@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <h1>Portfólio</h1>
+        <nav>
+            <div>
+                <ul aria-label="Navegação primária" class="menu">
+                    <li><a href="#sobre" onclick="scrollToSection('.sobre')">Sobre mim</a></li>
+                    <li><a href="#habilidades" onclick="scrollToSection('.habilidades')">Habilidades</a></li>
+                    <li><a href="#projetos" onclick="scrollToSection('.projetos')">Projetos</a></li>
+                    <li><a href="#contato" onclick="scrollToSection('.contato')">Contato</a></li>
+                </ul>
+
+                <i class="fa-solid fa-bars" id="off"></i>
+            </div>
+        </nav>
+
+
+
+    </header>
+    <section aria label="Download currículo" class="section-div">
+        <div class="texto">
+            <h2 class="titulo-principal"> Olá, eu sou Samahra Oliveira.</h2>
+            <h3 class="subtitulo">Desenvolvedora Full-Stack.</h3>
+            <div class="link-alinhar">
+                <div class="link"><a href="#">Download CV</a></div>
+                <div class="link"><a href="https://www.linkedin.com/in/samahra-oliveira-28b6ba263/">Linkedin</a></div>
+            </div>
+        </div>
+        <picture>
+            <img src="imagemeditada.png" alt="Imagem ilustrativa de uma pessoa">
+        </picture>
+    </section>
+    <main>
+        <article aria label="seção sobre mim" class="sobre">
+            <div class="sobre_titulo">
+                <h1>Sobre mim</h1>
+            </div>
+            <div class="sobre_conteudo">
+                <p>Me chamo Samahra Oliveira, tenho 22 anos e sou estudante de Análise e Desenvolvimento de Sistemas.
+                    Estou estudando para me tornar uma desenvolvedora Full-Stack, buscando me desenvolver nas áreas de
+                    Front-end e Back-end. Venho me desenvolvendo nas linguagens JAVA e Javascript.</p>
+            </div>
+            <div aria label="seção apenas de ilustração de botões">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </article>
+        <section aria label="seção sobre habilidades" id="skills" class="habilidades" data-anime="left">
+            <div class="my_services">
+                <h2>Habilidades</h2>
+                <ul aria-label="Navegação secundária">
+                    <li>
+                        <abbr title="Cascading Style Sheets">
+                            <h3>CSS3</h3>
+                        </abbr>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <p>Linguagem de estulos utilizada para adicionar estilo a um documento WEB.</p>
+                    </li>
+                    <li>
+                        <abbr title="HyperText Markup Language">
+                            <h3>HTML5</h3>
+                        </abbr>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Linguagem de marcação responsável por estruturar os elementos de uma página web.</p>
+                    </li>
+                    <li>
+                        <h3>JavaScript</h3>
+                        <i class="fa-brands fa-square-js"></i>
+                        <p>Linguagem de programação responsável pela interatividade presente nas páginas WEB.</p>
+                    </li>
+                    <li>
+                        <h3>Java</h3>
+                        <i class="fa-brands fa-java"></i>
+                        <p>Linguagem de programação orientada a objetos.</p>
+                    </li>
+                    <li>
+                        <h3>Git</h3>
+                        <i class="fa-brands fa-git-alt"></i>
+                        <p>Sistema de versões distribuído, usado principalmente no desenvolvimento de software</p>
+                    </li>
+                    <li>
+                        <h3>Github</h3>
+                        <i class="fa-brands fa-github"></i>
+                        <p>Plataforma de hospedagem de código fonte e arquivos com controle de versão usando o git</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section aria label="seção sobre projetos" id="projects" class="projetos" data-anime="left">
+            <h1>Projetos</h1>
+            <div class="alinhar">
+                <div class="caixa">
+                    <p>EM BREVE</p>
+                    <i class="fa-solid fa-hourglass-start"></i>
+                </div>
+                <div class="caixa">
+                    <p>EM BREVE</p>
+                    <i class="fa-solid fa-hourglass-start"></i>
+                </div>
+                <div class="caixa">
+                    <p>EM BREVE</p>
+                    <i class="fa-solid fa-hourglass-start"></i>
+                </div>
+            </div>
+        </section>
+        <section aria label="seção sobre contatos" class="contato" data-anime="left">
+            <h1>Contatos</h1>
+            <div class="links-contato">
+                <div class="link-cont"><i class="fa-solid fa-envelope"></i>
+                    <p>E-mail</p>
+                    <a href="mailto:samahraoliveira1605@gmailcom">samahraoliveira1605@gmail.com</a>
+                </div>
+                <div class="link-cont"><i class="fa-solid fa-phone"></i>
+                    <p>Telefone</p>
+                    <a href="tel:(81)98590-0757">(81)98590-0757</a>
+                </div>
+                <div class="link-cont"><i class="fa-brands fa-github"></i>
+                    <p>Github</p>
+                    <a href="https://github.com/samahraOliveira">@samahraOliveira</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer aria-label="barra final da página" class="copyright">
+        <p>&copy; Portfólio - Samahra Oliveira</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
