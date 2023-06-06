@@ -477,7 +477,8 @@ footer {
 @media (max-width: 768px) {
     header {
         justify-content: space-between;
-        padding: 30px 70px;
+        padding: 10px 50px;
+
     }
 
     .sobre_conteudo {
@@ -490,10 +491,17 @@ footer {
 
     header i {
         color: rgb(131, 131, 228);
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         cursor: pointer;
     }
 
+    header h1 {
+        font-size: 25px;
+    }
+
+    header .menu li a {
+        font-size: 15px;
+    }
     header .menu.ativado {
         background-color: rgb(20, 9, 43);
         position: absolute;
@@ -502,7 +510,7 @@ footer {
         color: white;
         z-index: 1;
         padding: 10px;
-        font-size: 1.3rem;
+        font-size: 1rem;
         font-weight: bold;
         border-radius: 0 0 4px 4px;
         right: 20px;
@@ -538,5 +546,72 @@ footer {
     .section-div div h3 {
         font-size: 15px;
         margin-left: -30px;
+    }
+    .section-div img {
+        margin-top: -50px;
+    }
+}
+
+@media (max-width:370px) {
+
+    *{
+        font-size: 15px;
+    }
+    .section-div div a{
+     font-size: 10px;
+     margin-left: -27px;
+    } 
+     .section-div div h2 {
+        font-size: 15px;
+        margin-left: -40px;
+     }
+
+     .section-div div h3 {
+        font-size: 10px;
+        margin-left: -40px;
+     }
+     .sobre {
+        margin-top: -100px;
+    }
+    .habilidades {
+        display: flex;
+        margin-top: -40px;
+    }
+    .my_services ul li {
+        max-width: 200px;
+        height: 200px;
+    }
+    .my_services ul li h3 {
+        font-size: 15px;
+    }
+    .my_services ul li p {
+        font-size:10px ;
+    }
+
+    .caixa {
+        width: 110px;
+        height: 90px;
+    }
+
+    .caixa {
+        width: 110px;
+        height: 90px;
+    }
+    .caixa p {
+        font-size: 10px;
+    }
+    .caixa i {
+        font-size: 15px;
+        margin-top: -8px;
+    }
+    .link-cont {
+        width: 50px;
+        height: 50px;
+    }
+    .links-contato i {
+        font-size: 20px;
+    }
+    .links-contato p {
+        font-size: 10px;
     }
 }
